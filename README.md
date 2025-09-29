@@ -80,6 +80,18 @@ BakeryWeb/
 ##  Author
 
 This website was developed by **Utlwang Mookaneng** as part of a coursework project.
+https://github.com/st10495298/WEB-Development-POE-2
+
+##  Reference List (Harvard Anglia Style)
+
+Mozilla Developer Network (MDN). (2025) *HTML elements reference*. Available at: [https://developer.mozilla.org/en-US/docs/Web/HTML/Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) (Accessed: 26 September 2025).
+
+Mozilla Developer Network (MDN). (2025) *CSS reference*. Available at: [https://developer.mozilla.org/en-US/docs/Web/CSS/Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) (Accessed: 26 September 2025).
+
+W3Schools. (2025) *HTML Semantic Elements*. Available at: [https://www.w3schools.com/html/html5_semantic_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp) (Accessed: 26 September 2025).
+
+W3Schools. (2025) *CSS Tutorial*. Available at: [https://www.w3schools.com/css/](https://www.w3schools.com/css/) (Accessed: 26 September 2025).
+
 
 
 
