@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SweetBite Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+<nav class="navbar">
+  <div class="nav-container">
+      <div class="nav-logo">
+          <i class="fas fa-birthday-cake"></i>
+          <span>SweetBite Bakery</span>
+      </div>
+      
+      <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+      
+      <div class="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="services.html" class="nav-link">Menu & Shop</a>
+          <a href="enquiry.html" class="nav-link">Events</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      
+      <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+  </div>
+</nav>
+
+    <!-- Contact Hero -->
+    <header class="contact-hero">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you! Visit us, call us, or send us a message - we're here to make your day sweeter</p>
+        </div>
+    </header>
+
+    <!-- Main Contact Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-content">
+            
+                <div class="contact-info-section">
+                    <h2>Visit Our Bakery</h2>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>123 Sweet Street<br>
+                            Cape Town, Western Cape 8001<br>
+                            South Africa</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone Numbers</h3>
+                            <p>Main Line: +27 21 123 4567<br>
+                            Orders & Enquiries: +27 21 123 4568<br>
+                            WhatsApp: +27 82 555 0123</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Addresses</h3>
+                            <p>General: hello@sweetbitebakery.co.za<br>
+                            Custom Orders: orders@sweetbitebakery.co.za<br>
+                            Events: events@sweetbitebakery.co.za</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Follow Us</h3>
+                            <p>@SweetBiteBakery on Instagram<br>
+                            @SweetBiteCT on Facebook<br>
+                            @SweetBite_SA on Twitter</p>
+                        </div>
+                    </div>
+
+                   
+                    <div class="hours-section">
+                        <h3><i class="fas fa-clock"></i> Opening Hours</h3>
+                        <ul class="hours-list">
+                            <li><span>Monday</span><span>7:00 AM - 7:00 PM</span></li>
+                            <li><span>Tuesday</span><span>7:00 AM - 7:00 PM</span></li>
+                            <li><span>Wednesday</span><span>7:00 AM - 7:00 PM</span></li>
+                            <li><span>Thursday</span><span>7:00 AM - 8:00 PM</span></li>
+                            <li><span>Friday</span><span>7:00 AM - 8:00 PM</span></li>
+                            <li><span>Saturday</span><span>7:00 AM - 7:00 PM</span></li>
+                            <li><span>Sunday</span><span>Closed</span></li>
+                        </ul>
+                        <p class="hours-note">
+                            <strong>Holiday Hours:</strong> Please check our social media or call ahead during public holidays for any changes to our regular hours.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="form-container">
+                    <h2>Send Us a Message</h2>
+                    <form>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="contactPhone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="messageSubject">Subject</label>
+                            <select id="messageSubject" name="messageSubject" required>
+                                <option value="">Please select a subject</option>
+                                <option value="general-enquiry">General Enquiry</option>
+                                <option value="product-feedback">Product Feedback</option>
+                                <option value="custom-order">Custom Order Query</option>
+                                <option value="catering">Catering Services</option>
+                                <option value="workshop">Workshop Information</option>
+                                <option value="complaint">Complaint or Issue</option>
+                                <option value="compliment">Compliment or Praise</option>
+                                <option value="media">Media/Press Enquiry</option>
+                                <option value="partnership">Business Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage">Your Message</label>
+                            <textarea id="contactMessage" name="contactMessage" placeholder="Please share your thoughts, questions, feedback, or any specific requirements. We'd love to hear from you!" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="responsePreference">How would you prefer us to respond?</label>
+                            <select id="responsePreference" name="responsePreference">
+                                <option value="email">Email Response</option>
+                                <option value="phone">Phone Call</option>
+                                <option value="whatsapp">WhatsApp Message</option>
+                                <option value="no-response">No response needed</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us on the Map</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.3872154739493!2d18.41854961478773!3d-33.915956980635104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc676c8a4d5b9f%3A0x6c8a4d5b9f8a4d5b!2sCape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1625847632145!5m2!1sen!2sie" 
+                    width="600" 
+                    height="450" 
+                    style="border:0; width: 100%; height: 400px; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="text-center">
+                <p class="map-description">
+                    Located in the heart of Cape Town, we're easily accessible by car or public transport.
+                </p>
+                <div class="accessibility-info">
+                    <div class="access-item">
+                        <i class="fas fa-car"></i>
+                        <span>Free parking available</span>
+                    </div>
+                    <div class="access-item">
+                        <i class="fas fa-bus"></i>
+                        <span>Bus stop nearby</span>
+                    </div>
+                    <div class="access-item">
+                        <i class="fas fa-wheelchair"></i>
+                        <span>Wheelchair accessible</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Do you offer gluten-free options?</h3>
+                        <p>Yes! We have a dedicated gluten-free section with breads, cakes, pastries, and more. All gluten-free items are prepared in a separate area to minimize cross-contamination.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>How far in advance should I order a custom cake?</h3>
+                        <p>We require a minimum of 48 hours for custom cakes. For wedding cakes or large orders, we recommend booking 2-4 weeks in advance to ensure availability.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Do you deliver?</h3>
+                        <p>Yes, we offer delivery within 25km of Cape Town CBD. Delivery charges start from R 75 and vary based on distance and order size. Same-day delivery is available for an additional fee.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Are your ingredients organic?</h3>
+                        <p>We use organic ingredients wherever possible and are certified by the South African Organic Standards Authority. We source from local organic farms to ensure freshness and support our community.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Can I visit the bakery kitchen?</h3>
+                        <p>Due to health and safety regulations, we don't offer regular kitchen tours. However, we do have scheduled baking workshops where you can see our kitchen in action and learn our techniques!</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you cater for allergies?</h3>
+                        <p>Absolutely! We can accommodate most allergies including nuts, dairy, eggs, and gluten. Please inform us of any allergies when placing your order so we can prepare safely.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>What payment methods do you accept?</h3>
+                        <p>We accept cash, all major credit cards, debit cards, EFT, and mobile payments including SnapScan and Zapper. For custom orders, we require a 50% deposit.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you offer vegan options?</h3>
+                        <p>Yes! We have a growing selection of vegan cakes, pastries, and breads. Our vegan chocolate cake and blueberry muffins are customer favorites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency-contact">
+        <div class="container">
+            <div class="emergency-content">
+                <h2>Need Immediate Assistance?</h2>
+                <p>For urgent custom orders, same-day delivery requests, or immediate assistance, please call our priority line:</p>
+                <div class="emergency-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+27 21 123 4567</span>
+                </div>
+                <p class="emergency-note">Available during business hours. For after-hours emergencies, leave a message and we'll respond first thing in the morning.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="additional-services">
+        <div class="container">
+            <h2 class="section-title">Additional Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-truck"></i>
+                    <h3>Delivery Service</h3>
+                    <p>Temperature-controlled delivery across Cape Town. Same-day delivery available for urgent orders with advance notice.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Online Ordering</h3>
+                    <p>Convenient online ordering system for regular products. Schedule pickup times and avoid waiting in queues.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-gift"></i>
+                    <h3>Gift Vouchers</h3>
+                    <p>Perfect gifts for baking enthusiasts! Available in various denominations and can be used for products or workshops.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Group Bookings</h3>
+                    <p>Special rates for group bookings, corporate events, and team building activities. Contact us for custom packages.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-star"></i>
+                    <h3>Loyalty Program</h3>
+                    <p>Join our loyalty program to earn points with every purchase. Redeem points for discounts and exclusive offers.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Wholesale Orders</h3>
+                    <p>Bulk orders for cafes, restaurants, and retailers. Special wholesale pricing and regular delivery schedules available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>SweetBite Bakery</span>
+                    </div>
+                    <p>Bringing sweetness to Cape Town since 2020. Fresh, organic, and made with love.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Menu & Shop</a></li>
+                        <li><a href="enquiry.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="services.html#cakes">Cakes</a></li>
+                        <li><a href="services.html#pastries">Pastries</a></li>
+                        <li><a href="services.html#breads">Breads</a></li>
+                        <li><a href="services.html#gluten-free">Gluten-Free</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Sweet Street, Cape Town</p>
+                        <p><i class="fas fa-phone"></i> +27 21 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> hello@sweetbitebakery.co.za</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sat: 7AM-7PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SweetBite Bakery. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
